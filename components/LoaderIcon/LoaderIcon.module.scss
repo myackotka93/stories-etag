@@ -1,0 +1,19 @@
+@import 'styles/global/variables.scss';
+@import 'styles/global/mixins.module.scss';
+
+.loader {
+  color: $color-accent;
+  border-radius: $radius-small;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  @include flex-center;
+
+  position: absolute;
+
+  svg {
+    width: 60px;
+    height: 60px;
+  }
+}
