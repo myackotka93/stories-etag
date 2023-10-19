@@ -1,0 +1,1284 @@
+$sprites: (
+  'close': '',
+  'pencil': '',
+  'qrcode': '',
+  'sortable': '',
+  'tooltip': '',
+  'trash': '',
+  'vcard': '',
+  'loader': '',
+  'share': '',
+  'info': '',
+  'chart': '',
+  'alignLeft': '',
+  'alignCenter': '',
+  'alignRight': '',
+  'checkMark': '',
+  'expand': '',
+  'geoMark': '',
+  'linkChain': '',
+  'logo': '',
+  'delimiter': '',
+  'text': '',
+  'header': '',
+  'custom': '',
+  'video': '',
+  'faq': '',
+  'features': '',
+  'feedbackIcon': '',
+  'copy': '',
+  'smile': '',
+  'creditCard': '',
+  'gift': '',
+  'checkOutlined': '',
+  'wallet': '',
+  'paperTablet': '',
+  'image': '',
+  'music': '',
+  'folder': '',
+  'flag': '',
+  'fire': '',
+  'phone': '',
+  'donut': '',
+  'drink': '',
+  'key': '',
+  'arrowLeft': '',
+  'arrowDown': '',
+  'closedEye': '',
+  'print': '',
+  'timer': '',
+  'settings': '',
+  'heart': '',
+  'star': '',
+  'like': '',
+  'dislike': '',
+  'musicalNote': '',
+  'search': '',
+  'ring': '',
+  'gear': '',
+  'support': '',
+  'camera': '',
+  'picture': '',
+  'videoCamera': '',
+  'clapperboard': '',
+  'conversation': '',
+  'megaphone': '',
+  'doorKey': '',
+  'lock': '',
+  'delete': '',
+  'house': '',
+  'briefcase': '',
+  'mortarboard': '',
+  'bed': '',
+  'babyCarriage': '',
+  'car': '',
+  'bicycle': '',
+  'airplane': '',
+  'shuttle': '',
+  'user': '',
+  'success': '',
+  'information': '',
+  'i24hours': '',
+  'clock': '',
+  'alarmClock': '',
+  'atom': '',
+  'discount': '',
+  'certificate': '',
+  'flower': '',
+  'leaf': '',
+  'teardrop': '',
+  'cloudComputing': '',
+  'snowflake': '',
+  'shoppingCart': '',
+  'birthdayCake': '',
+  'beerMug': '',
+  'wineGlass': '',
+  'coffeeCup': '',
+  'restaurant': '',
+  'mustache': '',
+  'scissors': '',
+  'tooth': '',
+  'trophy': '',
+  'drivingLicense': '',
+  'worldwide': '',
+  'website': '',
+  'internet': '',
+  'pin': '',
+  'email': '',
+  'whatsapp': '',
+  'viber': '',
+  'wechat': '',
+  'telegram': '',
+  'vk': '',
+  'tiktok': '',
+  'instagram': '',
+  'youtube': '',
+  'facebook': '',
+  'twitter': '',
+  'linkedin': '',
+  'snapchat': '',
+  'kwaii': '',
+  'ok': '',
+  'yandexzen': '',
+  'avito': '',
+  'pinterest': '',
+  'i500px': '',
+  'behance': '',
+  'playmarket': '',
+  'appstore': '',
+  'skype': '',
+  'discord': '',
+  'teamspeak': '',
+  'twitch': '',
+  'steam': '',
+  'patreon': '',
+  'donationalerts': '',
+  'googlemaps': '',
+  'boosty': '',
+  'onlyfans': '',
+  'yandextips': '',
+  'i2gis': '',
+  'yandexmaps': '',
+  'i2tip': '',
+  'cloudtips': '',
+  'yclients': '',
+  'applemusic': '',
+  'yandexmusic': '',
+  'boom': '',
+  'spotify': '',
+  'soundcloud': '',
+  'sber': '',
+  'tinkoff': '',
+  'qiwi': '',
+  'yandexmoney': '',
+  'yandexdisk': '',
+  'googledocs': '',
+  'googlesheets': '',
+  'googleforms': '',
+  'googlepresentation': '',
+  'btc': '',
+  'eth': '',
+  'bnb': '',
+  'sol': '',
+  'xrp': '',
+  'ada': '',
+  'doge': '',
+  'dot': '',
+  'shib': '',
+  'wbtc': '',
+  'matic': '',
+  'dai': '',
+  'ltc': '',
+  'atomCrypto': '',
+  'link': '',
+  'uni': '',
+  'trx': '',
+  'bch': '',
+  'usd': '',
+  'eur': '',
+  'gbp': '',
+  'rub': '',
+  'sberbank': '',
+  'usdt': '',
+  'usdc': '',
+  'busd': '',
+  'tusd': '',
+  'etc': '',
+  'algo': '',
+  'leo': '',
+  'xlm': '',
+  'vet': '',
+  'mana': '',
+  'fil': '',
+  'icp': '',
+  'xmr': '',
+  'sand': '',
+  'theta': '',
+  'waves': '',
+  'xtz': '',
+  'aave': '',
+  'eos': '',
+  'zec': '',
+  'miota': '',
+  'mkr': '',
+  'grt': '',
+  'btt': '',
+  'one': '',
+  'bsv': '',
+  'stx': '',
+  'neo': '',
+  'zil': '',
+  'kcs': '',
+  'ksm': '',
+  'ht': '',
+  'enj': '',
+  'lrc': '',
+  'nexo': '',
+  'dash': '',
+  'crv': '',
+  'bat': '',
+  'amp': '',
+  'hot': '',
+  'comp': '',
+  'xem': '',
+  'dcr': '',
+  'lotx': '',
+  'icx': '',
+  'yfi': '',
+  'skl': '',
+  'qtum': '',
+  'gno': '',
+  'omg': '',
+  'btg': '',
+  'ankr': '',
+  'rvn': '',
+  'snx': '',
+  'bnt': '',
+  'zrx': '',
+  'lost': '',
+  'dgb': '',
+);
+
+$sizes: (
+  'close': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'pencil': (
+    'width': 20px,
+    'height': 20px,
+  ),
+  'qrcode': (
+    'width': 20px,
+    'height': 20px,
+  ),
+  'sortable': (
+    'width': 5px,
+    'height': 20px,
+  ),
+  'tooltip': (
+    'width': 20px,
+    'height': 20px,
+  ),
+  'trash': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'vcard': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'loader': (
+    'width': 100px,
+    'height': 100px,
+  ),
+  'share': (
+    'width': 20px,
+    'height': 20px,
+  ),
+  'chart': (
+    'width': 20px,
+    'height': 20px,
+  ),
+  'info': (
+    'width': 20px,
+    'height': 20px,
+  ),
+  'alignLeft': (
+    'width': 20px,
+    'height': 12px,
+  ),
+  'alignCenter': (
+    'width': 21px,
+    'height': 12px,
+  ),
+  'alignRight': (
+    'width': 20px,
+    'height': 12px,
+  ),
+  'checkMark': (
+    'width': 15px,
+    'height': 11px,
+  ),
+  'expand': (
+    'width': 14px,
+    'height': 8px,
+  ),
+  'geoMark': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'linkChain': (
+    'width': 34px,
+    'height': 34px,
+  ),
+  'logo': (
+    'width': 60px,
+    'height': 34px,
+  ),
+  'delimiter': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'text': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'header': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'custom': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'video': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'faq': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'features': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'feedbackIcon': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'copy': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'smile': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'creditCard': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'gift': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'checkOutlined': (
+    'width': 26px,
+    'height': 24px,
+  ),
+  'wallet': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'paperTablet': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'image': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'music': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'folder': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'flag': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'phone': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'donut': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'drink': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'key': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'arrowLeft': (
+    'width': 32px,
+    'height': 32px,
+  ),
+  'arrowDown': (
+    'width': 8px,
+    'height': 5px,
+  ),
+  'closedEye': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'print': (
+    'width': 20px,
+    'height': 20px,
+  ),
+  'timer': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'settings': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'heart': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'star': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'like': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'dislike': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'musicalNote': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'search': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'ring': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'gear': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'support': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'camera': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'picture': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'videoCamera': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'clapperboard': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'conversation': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'megaphone': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'doorKey': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'lock': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'delete': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'house': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'briefcase': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'mortarboard': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'bed': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'babyCarriage': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'car': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'bicycle': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'airplane': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'shuttle': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'user': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'success': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'information': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'i24hours': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'clock': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'alarmClock': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'atom': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'discount': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'certificate': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'flower': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'leaf': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'teardrop': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'cloudComputing': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'fire': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'snowflake': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'shoppingCart': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'birthdayCake': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'beerMug': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'wineGlass': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'coffeeCup': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'restaurant': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'mustache': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'scissors': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'tooth': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'trophy': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'drivingLicense': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'worldwide': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'website': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'internet': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'pin': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'email': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'whatsapp': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'viber': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'wechat': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'telegram': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'vk': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'tiktok': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'instagram': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'youtube': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'facebook': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'twitter': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'linkedin': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'snapchat': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'kwaii': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'ok': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'yandexzen': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'avito': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'pinterest': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'i500px': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'behance': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'playmarket': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'appstore': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'skype': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'discord': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'teamspeak': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'twitch': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'steam': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'patreon': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'donationalerts': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'googlemaps': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'boosty': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'onlyfans': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'yandextips': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'i2gis': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'yandexmaps': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'i2tip': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'cloudtips': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'yclients': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'applemusic': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'yandexmusic': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'boom': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'spotify': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'soundcloud': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'sber': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'tinkoff': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'qiwi': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'yandexmoney': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'yandexdisk': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'googledocs': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'googlesheets': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'googleforms': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'googlepresentation': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'btc': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'eth': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'bnb': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'sol': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'xrp': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'ada': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'doge': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'dot': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'shib': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'wbtc': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'matic': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'dai': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'ltc': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'atomCrypto': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'link': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'uni': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'trx': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'bch': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'usd': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'eur': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'gbp': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'rub': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'sberbank': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'usdt': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'usdc': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'busd': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'tusd': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'etc': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'algo': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'leo': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'xlm': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'vet': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'mana': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'fil': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'icp': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'xmr': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'sand': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'theta': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'waves': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'xtz': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'aave': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'eos': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'zec': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'miota': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'mkr': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'grt': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'btt': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'one': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'bsv': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'stx': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'neo': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'zil': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'kcs': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'ksm': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'ht': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'enj': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'lrc': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'nexo': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'dash': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'crv': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'bat': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'amp': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'hot': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'comp': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'xem': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'dcr': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'lotx': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'icx': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'yfi': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'skl': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'qtum': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'gno': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'omg': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'btg': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'ankr': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'rvn': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'snx': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'bnt': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'zrx': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'lost': (
+    'width': 24px,
+    'height': 24px,
+  ),
+  'dgb': (
+    'width': 24px,
+    'height': 24px,
+  ),
+);
+
+$variables: (/* EMPTY */);
+
+// https://github.com/waldemarfm/sass-svg-uri/blob/v1.0.0/_svg-uri.scss
+@function sprite-str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if type-of($replace) == 'null' {
+    $replace: '';
+  }
+
+  @if ($index) {
+    @return str-slice($string, 1, $index - 1) + $replace +
+      sprite-str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
+  }
+
+  @return $string;
+}
+
+@function str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace +
+      str-replace(
+        str-slice($string, $index + str-length($search)),
+        $search,
+        $replace
+      );
+  }
+
+  @return $string;
+}
+
+@function sprite-svg-uri($value) {
+  $output: $value;
+
+  $output: sprite-str-replace($output, '"', "'");
+  $output: sprite-str-replace($output, '<', '%3C');
+  $output: sprite-str-replace($output, '>', '%3E');
+  $output: sprite-str-replace($output, '&', '%26');
+  $output: sprite-str-replace($output, '#', '%23');
+
+  @return $output;
+}
+
+@mixin sprite(
+  $name,
+  $user-variables: (),
+  $include-size: false,
+  $color: '#000'
+) {
+  $sprite: map-get($sprites, $name);
+
+  // Inject variables
+  $default-variables: map-get($variables, $name);
+  @if type-of($default-variables) == 'map' {
+    @each $key, $value in map-merge($default-variables, $user-variables) {
+      @if (not map-has-key($default-variables, $key)) {
+        @warn 'Sprite \'#{$name}\' does not support variable named \'#{$key}\'';
+      }
+
+      $sprite: sprite-str-replace(
+        $sprite,
+        '___#{$key}___',
+        sprite-svg-uri(quote(#{$value}))
+      );
+    }
+  } @else if type-of($user-variables) == 'map' {
+    @warn 'Sprite \'#{$name}\' does not contain any variables';
+  }
+
+  background: url(str-replace($sprite, '__color__', $color)) center no-repeat;
+  display: block;
+
+  @if $include-size {
+    $size: map-get($sizes, $name);
+    @if $include-size == true {
+      background-size: map-get($size, width) map-get($size, height);
+    } @else if $include-size == 'box' {
+      width: map-get($size, width);
+      height: map-get($size, height);
+    }
+  }
+}

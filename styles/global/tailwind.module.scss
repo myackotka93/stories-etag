@@ -1,0 +1,38 @@
+.t-gap-5 {
+  @apply gap-3 lg:gap-4 xl:gap-5 2xl:gap-6;
+}
+
+.t-space-x-5 {
+  @apply space-x-3 lg:space-x-4 xl:space-x-5 2xl:space-x-6;
+}
+
+.t-sidebar {
+  @apply w-24 p-3 lg:w-[108px] lg:p-4 xl:w-[120px] xl:p-5 2xl:w-[134px] 2xl:p-6;
+}
+
+.t-content {
+  @apply w-[calc(100vw-10rem-1.5rem)] lg:w-[calc(100vw-10rem-2rem)] xl:w-[calc(100vw-10rem-2.5rem)] 2xl:w-[calc(100vw-10rem-3rem)];
+  @apply ml-[84px] lg:ml-[92px] xl:ml-[100px] 2xl:ml-[110px];
+}
+
+.t-p-5 {
+  @apply p-3 lg:p-4 xl:p-5 2xl:p-6;
+}
+.t-p-8 {
+  @apply p-6 lg:p-7 xl:p-8 2xl:p-9;
+}
+
+.t-mr-5 {
+  @apply mr-3 lg:mr-4 xl:mr-5 2xl:mr-6;
+}
+.t-mb-5 {
+  @apply mb-3 lg:mb-4 xl:mb-5 2xl:mb-6;
+}
+
+.t-mt-5 {
+  @apply mt-3 lg:mt-4 xl:mt-5 2xl:mt-6;
+}
+
+.t-p-10 {
+  @apply p-6 lg:p-8 xl:p-10 2xl:p-12;
+}

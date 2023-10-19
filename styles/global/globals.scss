@@ -1,3 +1,121 @@
-@import "nullstyle";
-@import "mixins";
-@import "fonts";
+@import 'styles/global/fonts.scss';
+@import 'styles/global/variables.scss';
+@import 'styles/etag/etag-font.scss';
+@import 'styles/global/mixins.module.scss';
+
+[class^='etag-font-'],
+[class*=' etag-font-'] {
+  font-size: 24px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: $font-family-default;
+  font-size: $font-size-default;
+  font-weight: 400;
+  background-color: #fff;
+  min-height: 100vh;
+  position: relative;
+
+  > svg {
+    position: absolute;
+  }
+}
+
+#__next {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  text-align: inherit;
+  color: inherit;
+
+  @include font-inherit;
+}
+
+input,
+textarea {
+  outline: 0;
+  border: none;
+  box-shadow: none;
+
+  @include font-inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+input[type='date'] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+
+  background-color: transparent;
+
+  &::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+}
+
+button:disabled {
+  cursor: default;
+
+  color: $color-unactive !important;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity $fast-transition ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.slick-slider {
+  padding-bottom: 40px;
+}
+
+.slick-dots {
+  bottom: 10px !important;
+
+  li:not(.slick-active) button::before {
+    font-size: 9px;
+  }
+
+  li button:hover::before {
+    opacity: 0.5 !important;
+  }
+
+  li button:focus:before {
+    opacity: 0.25 !important;
+  }
+
+  li.slick-active button::before {
+    font-size: 11px;
+    color: $color-accent !important;
+    opacity: 0.9 !important;
+  }
+}
+
+.reactour__close {
+  top: 15px !important;
+  right: 15px !important;
+}

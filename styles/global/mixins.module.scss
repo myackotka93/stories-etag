@@ -1,0 +1,91 @@
+@import 'styles/global/variables.scss';
+
+@mixin shadow {
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+@mixin shadow-bottom {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.12),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.08), 0px 1px 18px 0px rgba(0, 0, 0, 0.14);
+}
+
+@mixin font-button {
+  font-size: $font-size-input;
+  line-height: 22px;
+  font-weight: $font-weight-bold;
+}
+
+@mixin font-context {
+  font-size: $font-size-small;
+  line-height: 18px;
+  font-weight: $font-weight-light;
+}
+
+@mixin font-title {
+  font-size: $font-size-title;
+  font-weight: $font-weight-bold;
+}
+
+@mixin font-inherit {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin page($title: true) {
+  padding-bottom: $padding-page;
+  padding-top: $margin-gap;
+
+  @if ($title) {
+    padding-top: $margin-gap;
+    &_title {
+      font-size: $font-size-page-title;
+      font-weight: $font-weight-bold;
+      margin-bottom: $margin-title;
+    }
+  }
+
+  &_header {
+    @include gap(20px);
+
+    min-height: 135px;
+
+    padding-top: 30px;
+
+    &_top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+@mixin gap($gap, $direction: column) {
+  display: flex;
+  flex-direction: $direction;
+
+  & > :not(:last-child) {
+    @if $direction == column {
+      margin-bottom: $gap;
+    } @else {
+      margin-right: $gap;
+    }
+  }
+}
+
+@mixin gap-empty($gap, $direction: column) {
+  & > :not(:last-child) {
+    @if $direction == column {
+      margin-bottom: $gap;
+    } @else {
+      margin-right: $gap;
+    }
+  }
+}

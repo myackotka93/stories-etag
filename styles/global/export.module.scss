@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+:export {
+  colorMain: $color-main;
+  colorAccent: $color-accent;
+  colorSecondary: $color-secondary;
+  colorSecondaryLight: $color-secondary-light;
+  colorUnactive: $color-unactive;
+  colorAccentTransparent: color-accent-transparent;
+  colorLabels: $color-labels;
+  colorGradientLeft: $color-gradient-left;
+  colorGradientRight: $color-gradient-right;
+  colorModalBg: $color-modal-bg;
+  fastTransition: $fast-transition / 1s;
+  mediumTransition: $medium-transition / 1s;
+  slowTransition: $slow-transition / 1s;
+  radiusInput: $radius-input / 1px;
+  radiusSmall: $radius-small;
+  radiusRound: $radius-round;
+  scaleLight: $scale-light;
+  scaleMedium: $scale-medium;
+  scaleHeavy: $scale-heavy;
+  contentWidth: $content-width;
+  heightModalButton: $height-modal-button / 1px;
+  heightButton: $height-button / 1px;
+  marginGap: $margin-gap / 1px;
+  marginLabel: $margin-label / 1px;
+}
