@@ -6,11 +6,11 @@ import styles from './index.module.scss';
 
 const images: Images = {
   android: [
-    { imageUrl: '/images/stories/android/item-1.png', alt: 'story-1-android', title: 'Давайте не теряться', description: 'Добавьте иконку eTag на рабочий стол, что бы ваш профиль был всегда под рукой' },
-    { imageUrl: '/images/stories/android/item-2.png', alt: 'story-2-android', title: 'Нажми поделиться', description: 'В Safari это кнопка квадрата со стрелкой' },
-    { imageUrl: '/images/stories/android/item-3.png', alt: 'story-3-android', title: 'Нажми на экран домой', description: 'Это добавит твой профиль в eTag к тебе на главный экран, что бы доступ визитке и настройкам были всегда под рукой' },
-    { imageUrl: '/images/stories/android/item-4.png', alt: 'story-4-android', title: 'Добавь QR циферблат', description: 'Если ты пользователь смарт часов, то скачай в настройках профиля свой QR код как циферблат для твоей модели часов и делись визиткой одним поднятием руки' },
-    { imageUrl: '/images/stories/android/item-5.png', alt: 'story-5-android', title: 'Начать пользоваться', description: 'Используй готовые кнопки или виджеты для создания твоего уникального профиля' }
+    { imageUrl: '/images/stories/ios/item-1.png', alt: 'story-1-android', title: 'Давайте не теряться', description: 'Добавьте иконку eTag на рабочий стол, что бы ваш профиль был всегда под рукой' },
+    { imageUrl: '/images/stories/ios/item-2.png', alt: 'story-2-android', title: 'Нажми поделиться', description: 'В Safari это кнопка квадрата со стрелкой' },
+    { imageUrl: '/images/stories/ios/item-3.png', alt: 'story-3-android', title: 'Нажми на экран домой', description: 'Это добавит твой профиль в eTag к тебе на главный экран, что бы доступ визитке и настройкам были всегда под рукой' },
+    { imageUrl: '/images/stories/ios/item-4.png', alt: 'story-4-android', title: 'Добавь QR циферблат', description: 'Если ты пользователь смарт часов, то скачай в настройках профиля свой QR код как циферблат для твоей модели часов и делись визиткой одним поднятием руки' },
+    { imageUrl: '/images/stories/ios/item-5.png', alt: 'story-5-android', title: 'Начать пользоваться', description: 'Используй готовые кнопки или виджеты для создания твоего уникального профиля' }
   ],
 };
 
