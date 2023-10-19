@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import  { useCallback, useEffect, useRef, useState } from 'react';
+import  { useEffect, useRef, useState } from 'react';
 
 import styles from './index.module.scss';
 
@@ -48,22 +48,6 @@ const LineSlide: React.FC<{
 const StoryPage: React.FC = ({  }) => {
   const [active, setActive] = useState(0);
 
-  const NavigationImageClick = useCallback((event: React.MouseEvent<HTMLImageElement>) => {
-
-    const image = event.target as HTMLImageElement;
-    const { clientX } = event;
-
-    const imageWidth = image.offsetWidth;
-
-    if (clientX < imageWidth / 2 && active > 0) {
-      setActive((prevIndex) => prevIndex - 1);
-    }
-
-    if (clientX >= imageWidth / 2 && active < images.android.length - 1) {
-      setActive((prevIndex) => prevIndex + 1);
-    }
-
-  }, [active]);
 
   const handleNextClick = (event: React.MouseEvent) => {
     event.stopPropagation();
@@ -74,7 +58,7 @@ const StoryPage: React.FC = ({  }) => {
     }
   };
 
-  const handlePrevClick = (event) => {
+  const handlePrevClick = (event: React.MouseEvent) => {
     event.stopPropagation();
     setActive((prevIndex) => prevIndex - 1);
   };
@@ -97,7 +81,7 @@ const StoryPage: React.FC = ({  }) => {
 
   return (
     <div className={styles.StoryPage}>
-    <div className={styles.body} onClick={NavigationImageClick} data-cy='bodyStories'>
+    <div className={styles.body} data-cy='bodyStories'>
       <div className={styles.slide}>
         {images.android.map((_, index) => (
           <LineSlide
