@@ -63,7 +63,7 @@ const StoryPage: React.FC = ({  }) => {
       setActive((prevIndex) => prevIndex + 1);
     }
 
-  }, [active, images.android]);
+  }, [active]);
 
   const handleNextClick = (event: React.MouseEvent) => {
     event.stopPropagation();
@@ -93,7 +93,7 @@ const StoryPage: React.FC = ({  }) => {
     return () => {
       clearTimeout(timerRef.current);
     };
-  }, [active, images.android.length]);
+  }, [active]);
 
   return (
     <div className={styles.StoryPage}>
