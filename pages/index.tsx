@@ -79,6 +79,23 @@ const StoryPage: React.FC = ({  }) => {
     };
   }, [active]);
 
+  useEffect(() => {
+    function updateMaxHeight() {
+      const storyPage = document.querySelector('.StoryPage');
+      if (storyPage) {
+        const windowHeight = window.innerHeight;
+        (storyPage as HTMLElement).style.maxHeight = `${windowHeight}px`;
+      }
+    }
+
+    window.addEventListener('resize', updateMaxHeight);
+    updateMaxHeight();
+
+    return () => {
+      window.removeEventListener('resize', updateMaxHeight);
+    };
+  }, []);
+
   return (
     <div className={styles.StoryPage}>
     <div className={styles.body} data-cy='bodyStories'>
