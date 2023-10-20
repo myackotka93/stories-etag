@@ -84,7 +84,7 @@ const StoryPage: React.FC = ({  }) => {
       const storyPage = document.querySelector('.StoryPage');
       if (storyPage) {
         const windowHeight = window.innerHeight;
-        (storyPage as HTMLElement).style.maxHeight = `${windowHeight}px`;
+        (storyPage as HTMLElement).style.height = `${windowHeight}px`;
       }
     }
 
