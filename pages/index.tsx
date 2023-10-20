@@ -49,12 +49,11 @@ const StoryPage: React.FC = ({  }) => {
   const [active, setActive] = useState(0);
   const [storyPageHeight, setStoryPageHeight] = useState('');
 
-  const updateMaxHeight = () => {
-    const windowHeight = window.innerHeight;
-    setStoryPageHeight(`${windowHeight}px`);
-  };
-
   useEffect(() => {
+    const updateMaxHeight = () => {
+      const windowHeight = window.innerHeight;
+      setStoryPageHeight(`${windowHeight}px`);
+    };
     window.addEventListener('load', updateMaxHeight);
     window.addEventListener('resize', updateMaxHeight);
 
