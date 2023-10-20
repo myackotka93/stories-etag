@@ -47,7 +47,22 @@ const LineSlide: React.FC<{
 
 const StoryPage: React.FC = ({  }) => {
   const [active, setActive] = useState(0);
+  const [storyPageHeight, setStoryPageHeight] = useState('');
 
+  const updateMaxHeight = () => {
+    const windowHeight = window.innerHeight;
+    setStoryPageHeight(`${windowHeight}px`);
+  };
+
+  useEffect(() => {
+    window.addEventListener('load', updateMaxHeight);
+    window.addEventListener('resize', updateMaxHeight);
+
+    return () => {
+      window.removeEventListener('load', updateMaxHeight);
+      window.removeEventListener('resize', updateMaxHeight);
+    };
+  }, []);
 
   const handleNextClick = (event: React.MouseEvent) => {
     event.stopPropagation();
@@ -79,25 +94,10 @@ const StoryPage: React.FC = ({  }) => {
     };
   }, [active]);
 
-  useEffect(() => {
-    function updateMaxHeight() {
-      const storyPage = document.querySelector('.StoryPage');
-      if (storyPage) {
-        const windowHeight = window.innerHeight;
-        (storyPage as HTMLElement).style.height = `${windowHeight}px`;
-      }
-    }
 
-    window.addEventListener('resize', updateMaxHeight);
-    updateMaxHeight();
-
-    return () => {
-      window.removeEventListener('resize', updateMaxHeight);
-    };
-  }, []);
 
   return (
-    <div className={styles.StoryPage}>
+    <div className={styles.StoryPage} style={{ height: storyPageHeight }}>
     <div className={styles.body} data-cy='bodyStories'>
       <div className={styles.slide}>
         {images.android.map((_, index) => (
