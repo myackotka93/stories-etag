@@ -50,16 +50,11 @@ const StoryPage: React.FC = ({  }) => {
   const [storyPageHeight, setStoryPageHeight] = useState('');
 
   useEffect(() => {
-    const updateMaxHeight = () => {
-      const windowHeight = window.innerHeight;
-      setStoryPageHeight(`${windowHeight}px`);
-    };
-    window.addEventListener('load', updateMaxHeight);
-    window.addEventListener('resize', updateMaxHeight);
+
+
 
     return () => {
-      window.removeEventListener('load', updateMaxHeight);
-      window.removeEventListener('resize', updateMaxHeight);
+
     };
   }, []);
 
@@ -80,15 +75,25 @@ const StoryPage: React.FC = ({  }) => {
   const timerRef = useRef<NodeJS.Timeout>();
 
   useEffect(() => {
+    const updateMaxHeight = () => {
+      const windowHeight = window.innerHeight;
+      setStoryPageHeight(`${windowHeight}px`);
+    };
+
+    window.addEventListener('load', updateMaxHeight);
+    window.addEventListener('resize', updateMaxHeight);
+
     timerRef.current = setTimeout(() => {
       if (active === images.android.length - 1) {
         console.log('exit');
       } else {
         setActive(active + 1);
       }
-    }, 500000);
+    }, 5000);
 
     return () => {
+      window.removeEventListener('load', updateMaxHeight);
+      window.removeEventListener('resize', updateMaxHeight);
       clearTimeout(timerRef.current);
     };
   }, [active]);
